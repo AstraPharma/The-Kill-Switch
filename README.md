@@ -1,12 +1,10 @@
-**The Kill Switch — 3D Printed PC Panic Button
-**
+**The Kill Switch — 3D Printed PC Panic Button**
 
 
 This project is a physical desktop “Kill Switch” for your PC. It is a 3D-printed button box that connects to your computer through USB. When pressed, it sends a keyboard shortcut to Windows. A small Python script running in the background detects that shortcut, shows a dramatic warning popup, and then force-closes open user applications.
 
 
-**
-Important Warning**
+**Important Warning**
 
 
 
