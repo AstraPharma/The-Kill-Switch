@@ -1,12 +1,12 @@
-The Kill Switch — 3D Printed PC Panic Button
-
+**The Kill Switch — 3D Printed PC Panic Button
+**
 
 
 This project is a physical desktop “Kill Switch” for your PC. It is a 3D-printed button box that connects to your computer through USB. When pressed, it sends a keyboard shortcut to Windows. A small Python script running in the background detects that shortcut, shows a dramatic warning popup, and then force-closes open user applications.
 
 
-
-Important Warning
+**
+Important Warning**
 
 
 
@@ -14,7 +14,7 @@ This project force-closes applications. Unsaved work may be lost. This is intend
 
 
 
-Bill of Materials
+**Bill of Materials**
 
 1 × Arduino Pro Micro ATmega32U4
 
@@ -30,23 +30,24 @@ Bill of Materials
 
 
 
-Filament
+**Filament**
 
 Black, red and white PLA. Get creative and switch things up if you want.
 
 
 
-Wiring
+**Wiring**
 
 The wiring is very simple. The tactile button connects to GND and D2 on the Arduino Pro Micro.The Arduino uses INPUT_PULLUP, so no external resistor is needed. When the button is not pressed, the input reads HIGH. When the button is pressed, D2 is connected to GND and reads LOW.
 
 
+**Set up**
 
 1. Install Python on Windows first.
 
 
 
-2- Sketch the Arduino code onto the controller
+2- Sketch the Arduino code onto the controller, I used Arduino IDE.
 
 
 
